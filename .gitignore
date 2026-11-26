@@ -1,0 +1,30 @@
+# Compiled binaries & libraries (publish via GitHub Releases instead)
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+
+# Runtime logs & crash/debug dumps
+aim_log.txt
+crash.log
+*.log
+*.dmp
+*.tmp
+dump_*.txt
+scan_*.txt
+
+# Proprietary game & legacy third-party binaries (DO NOT COMMIT)
+BF2142.exe
+RendDX9.dll
+D3DX9_*.dll
+d3dx9_*.dll
+demoanalyzer.exe
+demoanalyzer_2142.exe
+demoanalyzer.dll
+demoanalyzer_orig.dll
+demoanalyzer_151.dll
+
+# Heavy reverse-engineering artifacts (optional local files)
+demoanalyzer_decompiled.c
+x86asm/
