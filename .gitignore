@@ -1,5 +1,6 @@
 # Compiled binaries & libraries (publish via GitHub Releases instead)
 *.exe
+*.exe~
 *.dll
 *.pdb
 *.obj
